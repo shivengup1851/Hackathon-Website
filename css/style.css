@@ -442,7 +442,14 @@ footer {
 #speakers .speakers-wrapper {
     background: #ffffff;
     padding-bottom: 22px;
+    display: inline-block;
+    margin: 0 30px;
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+    border-radius: 50%;
 }
+
 
 .nav-tabs {
   margin-bottom: 20px;
