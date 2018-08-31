@@ -55,11 +55,15 @@ a {
 
 #detail,
 #program,
-#sponsors
-#speakers,
-footer {
+#sponsors,
+#speakers{
     padding-top: 10rem;
     padding-bottom: 10rem;
+}
+
+footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 #detail,
@@ -172,6 +176,7 @@ footer {
 }
 
 .custom-navbar .nav li a {
+    padding: 1.6em;
     color: #ddd;
     font-size: 12px;
     font-weight: 500;
