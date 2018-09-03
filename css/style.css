@@ -226,6 +226,15 @@ footer {
         padding: 0;
     }
 }
+@media(max-width:981px) {
+	.custom-navbar img {
+			max-width: 34px;
+			max-height: 34px;
+		}
+		.custom-navbar {
+			padding-bottom: 10px;
+		}
+}
 
 #home {
     background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
@@ -591,5 +600,10 @@ footer {
   #home {
     height: 100vh;
   }
-
+	#home h3 {
+		font-size: 16px;
+	}
+	#home h1 {
+		font-size: 35px;
+	}
 }
