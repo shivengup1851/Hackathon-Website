@@ -599,7 +599,7 @@ footer {
 @media (max-width: 760px) {
   #home {
     height: 100vh;
-		background: url('../images/bgphone.jpg');
+		background-color: #f2545f;
   }
 	#home h3 {
 		font-size: 15px;
