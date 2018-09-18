@@ -368,6 +368,14 @@ footer {
   content: "+";
 }
 
+@media(min-width:768px) {
+.resize {
+		width: 30%;
+		height: 30%;
+		padding-left: 115px;
+		}
+}
+
 #sponsors {
   padding-top: 150px;
   padding-bottom: 150px;
@@ -598,9 +606,9 @@ footer {
 @media (max-width: 768px) {
   #home {
     height: 100vh;
-		background: #de6161;
-		background: -webkit-linear-gradient(to bottom, #2657eb, #de6161);
-		background: linear-gradient(to bottom, #2657eb, #de6161);
+		background: #141E30;
+		background: -webkit-linear-gradient(to right, #243B55, #141E30);
+		background: linear-gradient(to right, #243B55, #141E30);
   }
 	#home h3 {
 		font-size: 15px;
